@@ -27,7 +27,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         label: "Home"),
 
         
-      BottomNavigationBarItem(icon: Icon(FluentSystemIcons.ic_fluent_search_regular), 
+        BottomNavigationBarItem(icon: Icon(FluentSystemIcons.ic_fluent_search_regular), 
         activeIcon: Icon (FluentSystemIcons.ic_fluent_search_filled),
         label: "Search"),
 
