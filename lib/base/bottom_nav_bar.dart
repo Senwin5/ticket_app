@@ -25,7 +25,6 @@ class _BottomNavBarState extends State<BottomNavBar> {
       _selectedIndex = index;
     });
   }
-  
 
   @override
   Widget build(BuildContext context) {
