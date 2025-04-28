@@ -12,7 +12,7 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   //list is iterated using index 
   final appScreens = [
-    Center HomeScreen(),
+    Center(child: const HomeScreen()),
     Center(child: const Text("Search")),
     Center(child: const Text("Tickets")),
     Center(child: const Text("Profile")),
