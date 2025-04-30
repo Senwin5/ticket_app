@@ -6,12 +6,39 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-
+// column //Row
     return Scaffold(
+      //we want it to be scrollable effect
       body: ListView(
         children: [
-          Container(child: Text("Hello home screen"),),
-          Container(child: Text("Hello how are you"),)
+          Column(children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  children: [
+                    Text("Good Moring "),
+                    Text("Book Tickets ")
+                ],
+                ),
+
+                Container(
+                  color: Colors.red,
+                  width: 100,
+                  height: 70,
+                )
+              ],
+            ),
+
+             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text("Search icon"),
+                Text("Empty space")
+              ],
+            )
+          ],
+          )
         ],
       ),
     );
